@@ -1,0 +1,2 @@
+# emojiMeaning
+Created with CodeSandbox
