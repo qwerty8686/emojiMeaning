@@ -1,2 +1,2 @@
 # emojiMeaning
-Created with CodeSandbox
+A website which tells the meaning of emoji's.
