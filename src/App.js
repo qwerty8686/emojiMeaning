@@ -12,7 +12,10 @@ export default function App() {
     "😳": "shocked",
     "😠": "angry",
     "😌": "relieved",
-    "😭": "loudly crying😌"
+    "😭": "loudly crying😌",
+    "😄": "grinning face with smiling eyes",
+    "😅": "grinning face with sweat",
+    "😥": "sad but relieved face"
   };
 
   var [meaning, setMeaning] = useState("");
@@ -36,8 +39,8 @@ export default function App() {
     <div className="App">
       <h1>Emoji Meaning</h1>
       <h2>Enter the emoji here ⏬</h2>
-      <textarea onChange={emojiMeaning}></textarea>
-      <div class="bold">{meaning}</div>
+      <textarea class="textarea" onChange={emojiMeaning}></textarea>
+      <h1 class="bold">{meaning}</h1>
       <h3>Emojis We Know</h3>
       {emojiWeKnow.map((emoji, index) => (
         <span

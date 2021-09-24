@@ -10,3 +10,7 @@ textarea {
 .bold {
   font-style: italic;
 }
+.textarea {
+  font-size: 2rem;
+  height: 3rem;
+}
